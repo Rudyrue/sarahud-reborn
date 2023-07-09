@@ -79,9 +79,7 @@ function onCreatePost()
 		for i = 1, 3 do
 			setProperty(textStuff[i] .. '.alpha', pref.elementsAlpha)
 			setProperty(iconStuff[i] .. '.alpha', pref.elementsAlpha)
-			if pref.elementsAlpha <= .7 and pref.statsBg then 
-				setProperty(statsbgthings[i] .. '.alpha', 0.1)
-			end
+			if pref.elementsAlpha <= .7 and pref.statsBg then setProperty(statsbgthings[i] .. '.alpha', 0.1) end
 		end
 	end
 end
